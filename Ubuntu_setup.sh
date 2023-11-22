@@ -18,6 +18,10 @@ sudo snap install dataspell --classic
 sudo snap install remmina
 sudo snap install authy
 
+# Fonts
+sudo apt install fonts-roboto -y
+sudo apt install fonts-jetbrains-mono -y
+
 # Environment setup for Node.js and other dependencies
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
@@ -43,4 +47,3 @@ sudo flatpak install flathub io.enpass.Enpass -y
 
 echo "All tools installed. Please reboot."
 exit 0
-
