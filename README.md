@@ -13,6 +13,11 @@ The primary goal of this script is to streamline the setup process for professio
 VM, or your daily driver,
 this script aims to reduce the manual effort required to install and configure the necessary tools.
 
+## Extentions
+[Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+[Caffine](https://extensions.gnome.org/extension/517/caffeine/)
+
 ## Usage
 
 After running the script, all the tools will be installed and configured on your system. Some tools may require
