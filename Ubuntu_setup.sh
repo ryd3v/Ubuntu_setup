@@ -45,6 +45,7 @@ sudo apt-get install -y libgirepository1.0-dev build-essential \
   curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev
 
 sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+sudo apt-get install --reinstall libgtk-3-common
 
 echo "All tools installed. Please reboot."
 exit 0
