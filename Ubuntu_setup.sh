@@ -38,14 +38,16 @@ sudo flatpak install flathub com.mattjakeman.ExtensionManager -y
 sudo flatpak install flathub com.spotify.Client -y
 sudo flatpak install flathub com.discordapp.Discord -y
 
-# PyGobject
+# Required for PyGobject
 sudo apt-get install -y python3-venv python3-wheel python3-dev
 sudo apt-get install -y libgirepository1.0-dev build-essential \
   libbz2-dev libreadline-dev libssl-dev zlib1g-dev libsqlite3-dev wget \
   curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev
 
-sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+sudo apt install -y libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+
 sudo apt-get install --reinstall libgtk-3-common
+sudo apt install -y gir1.2-gtkclutter-1.0 gir1.2-gtop-2.0
 
 echo "All tools installed. Please reboot."
 exit 0
